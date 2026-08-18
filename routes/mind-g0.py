@@ -8,5 +8,5 @@ def handle():
     return {
         "name": "nassir abusaroor",
         "team": "4",
-        "wants": "one thing you want out of the six weeks",
+        "wants": "be better at infrastructure management",
     }
