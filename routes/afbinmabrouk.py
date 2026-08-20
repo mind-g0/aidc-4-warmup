@@ -1,8 +1,8 @@
-PATH = "/afbinmabrouk"
+ATH = "/afbinmabrouk"
 
 def handle():
     return {
-        "name": "Alaa",
+        "name": "Alaa Mabrouk",
         "team": "6",
-        "wants": "develop my AI skills",
+        "wants": "Develop myAI skills",
     }
