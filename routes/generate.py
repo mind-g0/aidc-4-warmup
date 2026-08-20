@@ -6,8 +6,8 @@ MODEL = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 PATH = "/generate"
 
-tok = AutoTokenizer.from_pretrained(MODEL, local_files_only=False)
-model = AutoModelForCausalLM.from_pretrained(MODEL, local_files_only=False)
+tok = AutoTokenizer.from_pretrained(MODEL, local_files_only=True)
+model = AutoModelForCausalLM.from_pretrained(MODEL, local_files_only=True)
 
 
 def handle():
