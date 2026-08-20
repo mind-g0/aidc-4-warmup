@@ -16,7 +16,7 @@ def request(url, body=None):
     req = urllib.request.Request(url, data=data, headers=headers)
 
     try:
-        with urllib.request.urlopen(req, timeout=10) as r:
+        with urllib.request.urlopen(req, timeout=60) as r:
             return r.status, json.loads(r.read())
     except urllib.error.HTTPError as e:
         return e.code, json.loads(e.read())
